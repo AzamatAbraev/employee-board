@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .table-container {
+    overflow-x: auto;
+  }
+  .student-table {
+    width: 1116px;
+  }
+}
